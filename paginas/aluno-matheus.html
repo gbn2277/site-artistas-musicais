@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="Assets/gato.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michael Jackson</title>
+
+<style>
+.voltar {
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 100px;
+        color: white;
+        background-color: black;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-family: Georgia, serif;
+    }
+
+    .voltar:hover {
+      background-color: grey;
+    }
+.cardnome{
+    color: #000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:georgia, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:white;
+}
+
+header h1{
+    text-align: center;
+    font-size:55px;
+    color:gold;
+}
+
+header p{
+    margin-top:10px;
+    color:#383737;
+    text-align: center;
+    
+}
+
+.banner{
+    height:500px;
+    background:url("banner.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.banner h2{
+    background:rgba(0,0,0,.6);
+    padding:20px;
+    border-radius:10px;
+    font-size:40px;
+}
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0;
+}
+
+.titulo{
+    text-align:center;
+    font-size:38px;
+    color:gold;
+    margin-bottom:40px;
+}
+
+.sobre{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.foto{
+    flex:1;
+    min-width:300px;
+}
+
+.foto img{
+    width:100%;
+    border-radius:15px;
+    border:4px solid gold;
+    transition:.4s;
+}
+
+.foto img:hover{
+    transform:scale(1.03);
+}
+
+.texto{
+    flex:1;
+    min-width:300px;
+    font-size:19px;
+    line-height:1.8;
+    padding: 5%;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#222;
+    margin: 30px auto;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px gold;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:gold;
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+    border-top:2px solid gold;
+}
+
+footer p{
+    color:#aaa;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Michael Jackson</h1>
+
+<p>O Rei do Pop</p>
+<a class="voltar" href="index.html">Voltar</a>
+</header>
+
+<section>
+
+<h2 class="titulo">Sobre Michael Jackson</h2>
+
+<div class="sobre">
+
+<div class="foto">
+
+<img src="Assets/0x1900-000000-80-0-0.jpg" alt="Michael Jackson">
+
+</div>
+
+<div class="texto">
+
+<p class="cardnome">
+
+Michael Joseph Jackson nasceu em 29 de agosto de 1958 e tornou-se um dos artistas
+mais importantes da história da música.
+
+Seu talento revolucionou o pop com músicas inesquecíveis como
+<strong>Billie Jean</strong>,
+<strong>Thriller</strong>,
+<strong>Beat It</strong> e
+<strong>Smooth Criminal</strong>.
+
+Além de cantor, foi compositor, dançarino e performer, conhecido mundialmente pelo
+Moonwalk e por seus espetáculos impressionantes.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Galeria</h2>
+
+<div class="galeria">
+
+<div class="card">
+
+<img src="Assets/Michael_Jackson_-_Thriller.jpg" alt="Álbum Thriller">
+
+<h3>Thriller</h3>
+
+<p>
+Thriller é o sexto álbum de estúdio em carreira solo do artista estadunidense Michael Jackson, lançado em 30 de novembro de 1982, através da Epic Records.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="Assets/Michael_Jackson_-_Bad.png" alt="Álbum Bad">
+
+<h3>Bad</h3>
+
+<p>
+Bad é o sétimo álbum de estúdio do cantor e compositor estadunidense Michael Jackson, lançado em 31 de agosto de 1987 através da Epic Records.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="Assets/Dangerous_MJ_.jpg" alt="Álbum Dangerous">
+
+<h3>Dangerous</h3>
+
+<p>
+Dangerous é o oitavo álbum de estúdio do cantor americano Michael Jackson, lançado pela Epic Records em 21 de novembro de 1991.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="Assets/Michael-Jacson's-This-is-it.jpg" alt="Álbum This is it">
+
+<h3>This Is It</h3>
+
+<p>
+Michael Jackson's This Is It (ou This Is It) é uma compilação dupla do cantor americano Michael Jackson que contém as músicas que o astro cantaria na turnê This Is It que seria realizada em Londres pelo cantor, interrompida devido a sua morte.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Biografia Michael Jackson</h2>
+
+<div class="card">
+
+<img src="Assets/973661625168157.avif" alt="">
+
+<p>
+
+    <h3 class="titulo">Bibliografia</h3>
+
+    Michael Joseph Jackson (Gary, 29 de agosto de 1958 – Los Angeles, 25 de junho de 2009) foi um cantor, compositor, dançarino e filantropo estadunidense. Apelidado de "Rei do Pop", ele é considerado uma das figuras culturais mais importantes do século XX e um dos maiores artistas da história da música. Ao longo de uma carreira de quatro décadas, suas conquistas musicais e sua vida pessoal amplamente divulgada fizeram dele uma figura global da cultura popular. Por meio da música, da dança e da moda, revolucionou a performance visual na música pop e popularizou movimentos como o moonwalk, o robô e a inclinada antigravidade. Jackson possui uma extensa legião de fãs em todo o mundo, incluindo inúmeros imitadores.
+
+<br>
+
+O oitavo filho da família Jackson, Michael fez sua estreia profissional aos seis anos de idade, em 1964, ao lado de seus irmãos Jackie, Tito, Jermaine e Marlon, como integrante do grupo The Jackson 5. O grupo assinou contrato com a Motown em 1968 e alcançou sucesso mundial, tendo Michael como vocalista principal. Sua carreira solo ganhou destaque com o lançamento de seu quinto álbum de estúdio, Off the Wall (1979).
+
+<br>
+
+No início da década de 1980, Michael tornou-se a principal referência da música popular com o lançamento de Thriller (1982), o álbum mais vendido de todos os tempos. Os videoclipes de "Thriller", "Beat It" e "Billie Jean" quebraram barreiras raciais, transformaram os videoclipes em uma forma de arte e ferramenta de divulgação e contribuíram diretamente para a popularização da MTV.
+
+<br>
+
+Em 1987, Jackson consolidou sua posição como uma superestrela mundial com o álbum Bad, o primeiro da história a produzir cinco singles que alcançaram o primeiro lugar da Billboard Hot 100: "I Just Can't Stop Loving You", "Bad", "The Way You Make Me Feel", "Man in the Mirror" e "Dirty Diana". Em seguida, lançou Dangerous (1991), que explorou novos estilos musicais e tornou-se um dos maiores sucessos da década de 1990. Já HIStory: Past, Present and Future, Book I (1995) trouxe o sucesso "You Are Not Alone", a primeira canção a estrear diretamente no topo da Billboard Hot 100.
+
+<br>
+
+No final dos anos 1980, Jackson tornou-se uma figura controversa devido às mudanças em sua aparência, seus relacionamentos, comportamento e estilo de vida. Em 1993, foi acusado de abusar sexualmente do filho de um amigo da família. Em 2005, enfrentou um julgamento por novas acusações de abuso sexual infantil e outros crimes, sendo absolvido de todas elas.
+
+<br>
+
+Em 2009, enquanto se preparava para a turnê This Is It, Michael Jackson morreu em decorrência de uma overdose de sedativos administrados por seu médico pessoal, Conrad Murray, que foi condenado em 2011 por homicídio culposo. Sua morte provocou grande comoção mundial, gerando recordes de tráfego na internet e um enorme aumento nas vendas de seus álbuns. Estima-se que seu funeral público, realizado no Staples Center, em Los Angeles, tenha sido assistido por mais de 2,5 bilhões de pessoas em todo o mundo.
+
+<br>
+
+Michael Jackson é um dos artistas musicais mais vendidos de todos os tempos, com vendas estimadas em mais de 500 milhões de discos. Recebeu inúmeros prêmios e homenagens, tornando-se um dos artistas mais premiados da história da música. Entre suas conquistas estão 39 recordes no Guinness World Records, incluindo o de Artista Mais Bem-Sucedido de Todos os Tempos, 15 Grammy Awards, 26 American Music Awards, seis Brit Awards e três honrarias presidenciais.
+
+<br>
+
+Ele também foi homenageado com o prêmio Bambi de Artista Pop do Milênio e tornou-se o primeiro artista a emplacar músicas no Top 10 da Billboard Hot 100 em cinco décadas diferentes. Além disso, foi incluído duas vezes no Rock and Roll Hall of Fame, bem como no National Rhythm & Blues Hall of Fame, Vocal Group Hall of Fame, Songwriters Hall of Fame e Dance Hall of Fame, sendo o único artista a integrar este último. Em 2016, seu patrimônio gerou 825 milhões de dólares, o maior valor anual já registrado para uma celebridade pela revista Forbes.
+</p>
+
+
+
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Minhas músicas favoritas</h2>
+
+<div class="galeria">
+
+<div class="card">
+
+<img src="Assets/MJ_Chicago.jpg" alt="Música Chicago">
+
+<h3>Chicago</h3>
+
+<p>
+"Chicago" é uma canção do cantor estadunidense Michael Jackson, presente no seu segundo álbum póstumo Xscape. A canção foi composta por Cory Rooney e gravada originalmente nas sessões de gravação de seu álbum Invincible de 2001, com o título de "She Was Lovin' Me", porém, ficou fora da lista de faixas final do álbum.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="Assets/227861768484761.avif" alt="Música Heaven Can Wait">
+
+<h3>Heaven can wait</h3>
+
+<p>
+"Heaven can wait" é uma canção do cantor estadunidense Michael Jackson, presente no seu álbum Invincible.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="Assets/Michael_Jackson_-_Bad.png" alt="Album Bad">
+
+<h3>The way you make me feel</h3>
+
+<p>
+"Chicago" é uma canção notável de Michael Jackson presente no álbum póstumo Xscape, composta originalmente por Cory Rooney durante as sessões do álbum Invincible em 2001, sob o título "She Was Lovin' Me". Embora tenha ficado de fora da seleção final na época, a faixa foi retrabalhada por Timbaland para o lançamento de 2014, mantendo a narrativa intensa de um romance complicado descoberto pelo cantor.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="Assets/download" alt="Música I want tou back">
+
+<h3>I want you back</h3>
+
+<p>
+"I Want You Back" é o primeiro grande sucesso comercial do grupo The Jackson 5, lançado oficialmente em outubro de 1969.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Site criado para a matéria de SOP • Michael Jackson</p>
+
+</footer>
+
+</body>
+</html>

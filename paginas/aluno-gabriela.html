@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>SZA - Artistas Musicais</title>
+  <style>
+
+    /* Estilo geral da página */
+    body {
+        font-family: Georgia, serif;
+        margin: 40px 200px;
+    }
+
+    img{
+            
+          transition: transform 0.2s ease;
+          cursor: pointer;
+        }
+        img:hover{
+            transform: scale(1.15);
+        }
+
+    /* Botão de voltar, estilizado como link */
+    .voltar {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-family: Georgia, serif;
+    }
+
+    .voltar:hover {
+      background-color: grey;
+    }
+
+    /* Título principal */
+    h1 {
+      text-align: center;
+      border-bottom: 3px solid black;
+    }
+    h2 {
+        margin-top: 50px;
+        border-left: 5px solid purple;
+        padding-left: 12px;
+    }
+    
+
+    /* Foto da artista */
+    .foto-artista {
+      display: block;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin: 0 auto ;
+    }
+
+    /* Cada seção de conteúdo */
+    .secao {
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .secao h2 {
+      margin-top: 0;
+    }
+
+    .secao p {
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    /* Galeria de álbuns na Discografia */
+    .albuns {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    .album {
+      text-align: center;
+      width: 140px;
+    }
+
+    .album img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .album p {
+      text-align: center;
+      margin: 8px 0 0 0;
+      font-size: 14px;
+    }
+     table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+ 
+    th, td {
+      border: 1px solid ;
+      padding: 10px;
+      text-align: left;
+    }
+ 
+    th {
+
+      background-color: purple;
+      
+    }
+ 
+    table img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Botão para voltar para a Home Page -->
+  <a class="voltar" href="index.html">Voltar</a>
+  <!-- Foto principal da artista -->
+  <img class="foto-artista" src="assets/sza.png" alt="Foto de SZA">
+
+  <h1>SZA</h1>
+
+  
+  
+
+  <!-- Biografia -->
+  <div class="secao">
+    <h2>Biografia</h2>
+    <p>
+      SZA, nome artístico de Solána Imani Rowe, nasceu em 8 de novembro de 1989, em St. Louis,
+      no Missouri, e cresceu em Maplewood, Nova Jersey, cidade onde viveu boa parte da
+      infância e da adolescência. Filha de uma mãe cristã, ex-executiva de uma empresa de
+      telecomunicações, e de um pai muçulmano que trabalhava com produção de vídeo, ela teve
+      contato desde cedo com duas tradições religiosas diferentes, frequentando tanto a escola
+      dominical quanto a escola muçulmana. Essa convivência entre crenças distintas moldou boa
+      parte da visão espiritual que carrega até hoje, misturando elementos do cristianismo, do
+      islamismo e, mais tarde, também do hinduísmo.
+    </p>
+    <p>
+      Durante o ensino fundamental e o início do ensino médio, ela chegou a usar hijab, mas
+      deixou de utilizá-lo após os ataques de 11 de setembro, com medo de sofrer preconceito e
+      bullying por causa da islamofobia que se espalhou naquele período. Na escola, participou
+      de atividades como ginástica, torcida organizada e um grupo de dança, mostrando desde
+      cedo interesse por expressão artística. Depois de se formar no ensino médio em 2008,
+      passou por três faculdades diferentes até se estabelecer na Delaware State University,
+      onde chegou a estudar biologia marinha. No entanto, abandonou o curso no último semestre
+      para se dedicar integralmente à música, período em que trabalhou em diversos empregos
+      informais para se sustentar enquanto tentava construir uma carreira artística.
+    </p>
+  </div>
+
+  <!-- Carreira -->
+  <div class="secao">
+    <h2>Carreira</h2>
+    <p>
+      SZA começou a chamar atenção após lançar dois EPs de forma independente, o que despertou
+      o interesse da gravadora Top Dawg Entertainment, que a contratou em 2013, tornando-a a
+      primeira artista feminina do selo. Nos anos seguintes, ela lançou o EP "Z" e participou
+      de diversas faixas ao lado de outros artistas da gravadora, ganhando um público fiel em
+      comunidades online antes mesmo de estourar no mainstream. O processo de criação de seu
+      álbum de estreia foi longo e cheio de idas e vindas, marcado por adiamentos, ansiedade e
+      desentendimentos com a gravadora, até que "Ctrl" finalmente chegou em 2017.
+    </p>
+    <p>
+      "Ctrl" foi recebido com aclamação unânime da crítica, entrou em diversas listas de
+      melhores álbuns do ano e rendeu a SZA suas primeiras indicações ao Grammy. A partir daí,
+      ela embarcou em uma sequência de colaborações de peso, como "All the Stars", ao lado de
+      Kendrick Lamar, para a trilha sonora de Pantera Negra, e "Kiss Me More", com Doja Cat, que
+      lhe deu seu primeiro prêmio Grammy. Ao longo dos anos, ela consolidou uma identidade
+      musical própria, misturando R&B, hip-hop, pop e até rock alternativo, sempre resistindo a
+      ser encaixada em um único gênero. Em 2022, lançou seu segundo álbum, "SOS", um trabalho
+      ainda mais ambicioso e multigênero que quebrou diversos recordes nas paradas musicais e
+      confirmou seu lugar como uma das artistas mais influentes da música contemporânea. Nos
+      anos seguintes, seguiu lançando material através da reedição "Lana" e de parcerias com
+      Kendrick Lamar, incluindo a turnê conjunta mais lucrativa da história.
+    </p>
+  </div>
+
+  <!-- Discografia -->
+  <div class="secao">
+    <h2>Discografia</h2>
+    <p>
+      A discografia de SZA é marcada por dois álbuns de estúdio que definiram sua trajetória
+      artística: "Ctrl", lançado em 2017, e "SOS", lançado em 2022. "Ctrl" apresentou uma
+      artista confessional, que expunha inseguranças e experiências pessoais com uma
+      sinceridade pouco comum, e se tornou um marco do R&B alternativo da década. Já "SOS" foi
+      um trabalho ainda mais amplo, transitando entre R&B, hip-hop, pop e rock, e se tornou um
+      dos álbuns mais premiados e comentados de sua geração, permanecendo por dezenas de
+      semanas no topo das paradas. Em 2024, SZA lançou "Lana", uma reedição expandida de "SOS"
+      com diversas faixas inéditas, tratada por ela quase como um álbum novo em si. Ambos os
+      trabalhos originais receberam aclamação da crítica e são frequentemente citados como
+      referências do R&B contemporâneo.
+    </p>
+    <div class="albuns">
+      <div class="album">
+        <img src="assets/z.jpg" alt="Capa do álbum Z (Não foi feito em estúdio)">
+        <p>Z (2014)</p>
+      </div>
+      <div class="album">
+        <img src="assets/ctrl.png" alt="Capa do álbum Ctrl">
+        <p>Ctrl (2017)</p>
+      </div>
+      <div class="album">
+        <img src="assets/ctrl-deluxe.png" alt="Capa do álbum Ctrl">
+        <p>Ctrl Deluxe (2022)</p>
+      </div>
+      <div class="album">
+        <img src="assets/capa_sos.png" alt="Capa do álbum SOS">
+        <p>SOS (2022)</p>
+      </div>
+      <div class="album">
+        <img src="assets/sos-deluxe.jpg" alt="Capa do álbum SOS Deluxe">
+        <p>SOS Deluxe: LANA (2025)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Músicas -->
+  <div class="secao">
+    <h2>Músicas</h2>
+    <p>
+      As composições de SZA costumam ter um tom confessional e vulnerável, abordando temas
+      como autoestima, desilusões amorosas, nostalgia e amadurecimento. Ela costuma dizer que
+      escreve como forma de autoterapia, muitas vezes registrando pensamentos de forma quase
+      improvisada, sem um tema definido antes de começar uma faixa. Esse estilo pessoal e
+      intimista ajudou a construir uma conexão forte com o público, especialmente com ouvintes
+      que se identificam com suas inseguranças expostas nas letras. Ao longo da carreira, ela
+      emplacou diversas músicas de sucesso em parceria com nomes como Kendrick Lamar, Doja Cat
+      e Travis Scott, além de hits como artista principal que se tornaram verdadeiros marcos do
+      R&B contemporâneo. Abaixo estão alguns dos maiores sucessos de sua carreira:
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Capa</th>
+          <th>Música</th>
+          <th>Álbum</th>
+          <th>Lançamento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="assets/love-galore.jpg" alt="Capa de Love Galore"></td>
+          <td>Love Galore (part. Travis Scott)</td>
+          <td>Ctrl</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td><img src="assets/the-weekend.png" alt="Capa de The Weekend"></td>
+          <td>The Weekend</td>
+          <td>Ctrl</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td><img src="assets/all-stars.jpg" alt="Capa de All the Stars"></td>
+          <td>All the Stars (com Kendrick Lamar)</td>
+          <td>Trilha sonora de Pantera Negra</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td><img src="assets/kiss-more.jpg" alt="Capa de Kiss Me More"></td>
+          <td>Kiss Me More (com Doja Cat)</td>
+          <td>Planet Her</td>
+          <td>2021</td>
+        </tr>
+        <tr>
+          <td><img src="assets/good-days.png" alt="Capa de Good Days"></td>
+          <td>Good Days</td>
+          <td>SOS</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <td><img src="assets/snooze.jpg" alt="Capa de Kill Bill"></td>
+          <td>Kill Bill</td>
+          <td>SOS</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td><img src="assets/snooze.jpg" alt="Capa de Snooze"></td>
+          <td>Snooze</td>
+          <td>SOS</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td><img src="assets/saturn.png" alt="Capa de Saturn"></td>
+          <td>Saturn</td>
+          <td>Lana</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td><img src="assets/luther.jpg" alt="Capa de Luther"></td>
+          <td>Luther (com Kendrick Lamar)</td>
+          <td>GNX / Lana</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td><img src="assets/30-30.jpg" alt="Capa de 30 for 30"></td>
+          <td>30 for 30 (com Kendrick Lamar)</td>
+          <td>Lana</td>
+          <td>2025</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Prêmios -->
+  <div class="secao">
+    <h2>Prêmios</h2>
+    <p>
+      Ao longo da carreira, SZA já recebeu sete prêmios Grammy, além de indicações ao Oscar e
+      ao Globo de Ouro por seu trabalho na trilha sonora de Pantera Negra. Também foi premiada
+      em cerimônias como o American Music Awards, o Billboard Music Awards, o Brit Award e o
+      MTV Video Music Awards, somando ao longo dos anos dezenas de troféus e indicações. Seu
+      álbum "SOS" chegou a ser o trabalho com o maior número de indicações em uma única edição
+      do Grammy, refletindo o alcance e a repercussão que o disco teve entre crítica e público.
+      Além dos prêmios musicais, SZA também foi reconhecida pela Billboard como Mulher do Ano
+      em 2023 e recebeu, em 2024, o prêmio Hal David Starlight do Hall da Fama dos
+      Compositores, reconhecimento voltado a artistas que se destacam também como
+      compositores.
+    </p>
+  </div>
+
+  <!-- Curiosidades -->
+  <div class="secao">
+    <h2>Curiosidades</h2>
+    <p>
+      O nome artístico "SZA" foi inspirado no movimento religioso Five Percent Nation e nos
+      rappers RZA e GZA, do Wu-Tang Clan, uma de suas grandes influências musicais na
+      juventude. Antes de se dedicar integralmente à música, ela chegou a trabalhar como
+      bartender e a dançar em clubes noturnos para se sustentar, mentindo sobre a própria idade
+      para conseguir alguns desses empregos. Sua avó, já falecida, aparece em gravações de voz
+      sampleadas tanto em "Ctrl" quanto em "SOS", sendo carinhosamente creditada como "Vovó"
+      nos encartes dos álbuns. Fora da música, SZA também se aventurou em outras áreas, como
+      moda e cosméticos, lançando uma linha própria de produtos labiais e assumindo o cargo de
+      diretora artística de uma marca de calçados. Ela também é conhecida por se manifestar
+      publicamente sobre temas como justiça ambiental e os riscos que a inteligência artificial
+      generativa representa para artistas e compositores, especialmente para músicos negros.
+    </p>
+  </div>
+
+</body>
+</html>
