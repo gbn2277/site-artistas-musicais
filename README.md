@@ -26,8 +26,8 @@ Site colaborativo desenvolvido pela equipe do Instituto JEF, 1º G Tech, como pr
 
 ## Como abrir o site
 
-1. Acesse o link do site publicado: ` `
+1. Acesse o link do site publicado: `https://github.com/gbn2277/site-artistas-musicais.git`
 
 Ou, para rodar localmente:
 1. Clone o repositório: `git clone https://github.com/gbn2277/site-artistas-musicais.git`
-2. Abra o arquivo `index.html https://github.com/gbn2277/site-artistas-musicais.git` no navegador
+2. Abra o arquivo `index.html` no navegador
